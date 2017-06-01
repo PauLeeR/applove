@@ -2,7 +2,7 @@
  * Ingresa el CSS del proyecto en este archivo
  */
 
-* {
+ * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -86,7 +86,7 @@ header{
 }
 
 #services{
-  margin-top: 40px;
+  margin-top: 0px;
   background-color: #F17C72;
   text-align: center;
   color: #fff;
@@ -104,15 +104,8 @@ header{
   letter-spacing: 2px;
 }
 
-footer{
-  text-align: center;
-  height: 70px;bos-
-  background-color: #373b47;
-  color: white;
-  padding-top: 17px;
-}
 
-#box-services-modal{
+/*#box-services-modal{
   background-color: rgba(240,30,80,0.85);
   width: 100%;
   height: 100%;
@@ -154,7 +147,53 @@ footer{
 
 .hide{
   display: none;
+}*/
+
+/* sección WORK */
+#work{
+  margin-top: 10px;
+  text-align: center;
+  padding: 50px 15px;
+  font-weight: 400px;
 }
 
+h4{
+  padding: 20px;
+  text-align: center;
+  width: 60%;
+  margin:0 auto;
+}
 
+.col-12{
+  position: static;
+  width: 95%;
+  text-align: center;
+}
 
+#gallery {
+  background-color:white;
+  text-align:center;
+  width:85%;
+  margin:0 auto;
+  padding-bottom:40px;
+  cursor: pointer;
+}
+
+.close{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 17px;
+}
