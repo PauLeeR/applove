@@ -28,7 +28,7 @@
 
  			//creo el elemento imagen con su src 
  			//imagenC = document.createElement("img"); 
- 			//creo otro tipo de elemento (i) porque la imagen close (X) es blanca y no se ve con las imagenes que tienen fondo blanco
+ 			//creo otro tipo de elemento (i) porque la imagen close (X) que originalmente saqué de un ej q hizo onlyblank es blanca y no se ve con las imagenes que tienen fondo blanco
  			imagenC = document.createElement("i");
  			//le doy class 
  			imagenC.classList.add("fa", "fa-times-circle-o");
