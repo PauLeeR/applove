@@ -183,9 +183,11 @@ h4{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 100px;
+    width: 80%;
+    height: 50%;
+    margin: 10px 10px;
+    margin-left: 100px;
+    /*padding: 100px;*/
 }
 
 .fa-times-circle-o{
