@@ -27,9 +27,17 @@
  			//close.innerHTML = "imagenC"
 
  			//creo el elemento imagen con su src 
- 			imagenC = document.createElement("img");
- 			imagenC.setAttribute("src", "http://tojaeurope.com/gallery/Close-icon.png");
- 			
+ 			//imagenC = document.createElement("img"); 
+ 			//creo otro tipo de elemento (i) porque la imagen close (X) es blanca y no se ve con las imagenes que tienen fondo blanco
+ 			imagenC = document.createElement("i");
+ 			//le doy class 
+ 			imagenC.classList.add("fa", "fa-times-circle-o");
+
+ 			//imagenC.setAttribute("aria-hidden='true'");
+ 			//imagenC.setAttribute("src", "http://tojaeurope.com/gallery/Close-icon.png");
+
+			//<i class="fa fa-times-circle-o" aria-hidden="true"></i>
+
  			close.appendChild(imagenC); //el icono X se "apenda" a close y esto al modal
 			work.appendChild(close); 		
  			
